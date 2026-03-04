@@ -137,11 +137,9 @@
 
 
 //string[] fruits = { "alma", "armud", "nar", "heyva", "gilas", "alca", "banan" };
-//Console.WriteLine(fruits);
 
 
 //string[] students = { "s1", "s2", "s3", "s4", "s5", "s6", "s7", "s8", "s9", "s10" };
-//Console.WriteLine(students);
 
 //string[] students = { "s1", "s2", "s3", "s4", "s5", "s6", "s7", "s8", "s9", "s10" };
 //for (int i = 0; i < students.Length; i++) 
@@ -169,7 +167,6 @@
 
 
 //string[] travels = { "baki", "gence", "seki", "susa" };
-//Console.WriteLine(travels);
 
 
 
