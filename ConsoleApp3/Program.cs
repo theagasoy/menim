@@ -335,11 +335,11 @@
 
 
 //iscilerin yasi olan bir array verilib yasi 65e beraber ve boyuk olanlari teqaude ayrilmali oldugunu bildiren mesaj gelsin
-int[] age = { 23, 34, 19, 65, 40, 66, 29, 35, 67, 64, 60, 32, 57 };
-for (int i = 0; i < age.Length; i++)
-{
-    if (age[i] >= 65)
-    {
-        Console.WriteLine($"{age[i]} yaşlı işçi: Təqaüdə ayrılmalıdır.");
-    }
-}
+//int[] age = { 23, 34, 19, 65, 40, 66, 29, 35, 67, 64, 60, 32, 57 };
+//for (int i = 0; i < age.Length; i++)
+//{
+//    if (age[i] >= 65)
+//    {
+//        Console.WriteLine($"{age[i]} yaşli işçi: teqaude ayrilmalidir.");
+//    }
+//}
