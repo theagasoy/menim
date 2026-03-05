@@ -343,3 +343,71 @@
 //        Console.WriteLine($"{age[i]} yaşli işçi: teqaude ayrilmalidir.");
 //    }
 //}
+
+
+//Console.Write("1-ci tərəfi daxil edin: ");
+//double a = Convert.ToDouble(Console.ReadLine());
+//Console.Write("2-ci tərəfi daxil edin: ");
+//double b = Convert.ToDouble(Console.ReadLine());
+//Console.Write("3-ci tərəfi daxil edin: ");
+//double c = Convert.ToDouble(Console.ReadLine());
+//if (a == b && b == c)
+//{
+//    Console.WriteLine("Bu bərabərtərəfli üçbucaqdır.");
+//}
+//else if (a == b || a == c || b == c)
+//{
+//    Console.WriteLine("Bu bərabəryanlı üçbucaqdır.");
+//}
+//else
+//{
+//    Console.WriteLine("Bu müxtəliftərəfli üçbucaqdır.");
+//}
+
+//Random rnd = new Random();
+//int number = rnd.Next(1, 101);
+//int guess;
+//for (int i = 1; i <= 5; i++)
+//{
+//    Console.Write("Ededi daxil edin: ");
+//    guess = Convert.ToInt32(Console.ReadLine());
+//    if (guess == number)
+//    { Console.WriteLine("You won!");
+//        return;}
+//    else
+//    { Console.WriteLine("Yanlis.");}
+//}
+//Console.WriteLine("Game over!");
+
+
+
+//Console.Write("uzunlug:  ");
+//double a = Convert.ToDouble(Console.ReadLine());
+//Console.Write("Hundurluyu daxil edin: ");
+//double h = Convert.ToDouble(Console.ReadLine());
+//double Sahe = (a * h) / 2;
+//Console.WriteLine("Ucbucagin sahesi: " + Sahe);
+
+//Console.Write("Uzunlugu daxil edin: ");
+//double uzun = Convert.ToDouble(Console.ReadLine());
+//Console.Write("Eni daxil edin: ");
+//double en = Convert.ToDouble(Console.ReadLine());
+//double S = uzun * en;
+//Console.WriteLine("Dordbucagin sahesi: " + S);
+
+
+
+int n = Convert.ToInt32(Console.ReadLine());
+int omg = n;
+int ters = 0;
+
+while (n > 0)
+{
+    int qaliq = n % 10;
+    ters = ters * 10 + qaliq;
+    n = n / 10;}
+
+if (omg == ters)
+    Console.WriteLine("Palindrome");
+else
+    Console.WriteLine("Palindrome deyil");
